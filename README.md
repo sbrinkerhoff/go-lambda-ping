@@ -12,6 +12,8 @@ In the `function` directory run `make release` to generate the binary and then z
 
 ## Deploying the Lambda
 
+0. Change to the infrastructure directory; `cd infra`.
+
 1. Run `terraform init` to initialize the terraform repository.
 
 2. Then run `terraform plan` to create the execution plan.
